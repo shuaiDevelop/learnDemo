@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Base8Controller">
+            <connections>
+                <outlet property="imageStackView" destination="Niu-Mp-Di4" id="VSR-J6-xso"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mdx-vB-aY6">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9z-3t-6wL">
+                            <rect key="frame" x="279" y="0.0" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header1" translatesAutoresizingMaskIntoConstraints="NO" id="AAb-AB-vXX">
+                            <rect key="frame" x="0.0" y="21" width="600" height="300"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ecH-Bh-gRt">
+                            <rect key="frame" x="240" y="321" width="120" height="79"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEt-aL-9N0">
+                                    <rect key="frame" x="0.0" y="0.0" width="60" height="79"/>
+                                    <state key="normal" title="添加图片"/>
+                                    <connections>
+                                        <action selector="addImage:" destination="-1" eventType="touchUpInside" id="OPf-9L-wft"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1r0-Vq-9fZ">
+                                    <rect key="frame" x="60" y="0.0" width="60" height="79"/>
+                                    <state key="normal" title="删除图片"/>
+                                    <connections>
+                                        <action selector="deleteImage:" destination="-1" eventType="touchUpInside" id="63h-J0-UG5"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Niu-Mp-Di4">
+                    <rect key="frame" x="0.0" y="400" width="600" height="200"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="mdx-vB-aY6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="4iH-YR-V1j"/>
+                <constraint firstAttribute="trailing" secondItem="mdx-vB-aY6" secondAttribute="trailing" id="95c-wc-5vd"/>
+                <constraint firstItem="Niu-Mp-Di4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="API-Lm-fo8"/>
+                <constraint firstItem="Niu-Mp-Di4" firstAttribute="top" secondItem="mdx-vB-aY6" secondAttribute="bottom" id="RDF-Xm-DlM"/>
+                <constraint firstItem="mdx-vB-aY6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eSp-7x-K95"/>
+                <constraint firstItem="mdx-vB-aY6" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="2:3" id="sYH-SD-BFz"/>
+                <constraint firstAttribute="trailing" secondItem="Niu-Mp-Di4" secondAttribute="trailing" id="uXP-OW-0LR"/>
+                <constraint firstAttribute="bottom" secondItem="Niu-Mp-Di4" secondAttribute="bottom" id="zVj-T0-KPN"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="header1" width="640" height="300"/>
+    </resources>
+</document>
