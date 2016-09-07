@@ -9,16 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JSPatch.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Mantle.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-search.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,42 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2D5567CA30FA2C6EE987B0B630DABA7E</key>
+		<key>2A17E89095FC7E8F96D86288DD874E4D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>426BC4549A625B5E1E4200D5261A98BF</key>
+		<key>4DAF21F40DF431DFA8CFBD8E1E7F757E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>530AB6F4CD533C75CF54035B157E6982</key>
+		<key>5856DDF3B50A61FBBCF584E32BA236EC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6FB3ADD3AC12C7CB45B140FD403C08FF</key>
+		<key>63831EBC63059789DCD772366AD939F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>709C4F7D383F49624DAB96B09C3AA53F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C85AA03321D3924B0FD81B517EFDEA72</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F62B663CDE6CA3C453130E04E978BD1D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FD1D53461DE538B7C8DFE0B76D857587</key>
 		<dict>
 			<key>primary</key>
 			<true/>

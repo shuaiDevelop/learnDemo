@@ -4,8 +4,9 @@
 # use_frameworks!
 pod 'ReactiveCocoa', '~>2.3.1'
 pod 'AFNetworking', '~>3.0.4'
-pod 'JSPatch' , '~>1.0'
-pod 'Mantle' , '~>2.0.7'
+#pod 'JSPatch' , '~>1.0'
+#pod 'Mantle' , '~>2.0.7'
+#pod 'MLeaksFinder'
 
 target 'search' do
 
